@@ -1,0 +1,170 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    width: auto;
+}
+a{
+    text-decoration: none;
+    color:#ffffff ;
+    background-color: transparent;
+}
+ul{
+    list-style: none;
+}
+/* for the header */
+header{
+    height: 100vh;
+    width: auto;
+    background-image:url(../img/images\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgb(26, 26, 37);
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+/* for the nav image and button setting */
+.header{
+    display: flex;
+    padding-left: 22px;
+    height: 115px;
+    width: auto;
+}
+/* for the logo */
+.headerimage{
+    width: 169px;
+}
+.headerimage img{
+    width: 112px;
+    margin-top: 12px;
+}
+/* for the navigation */
+.nav{
+    width: 894px;
+    margin: 0;
+    padding-top: 49px;
+}
+.nav ul{
+    display:flex ;
+    margin: 0;
+    list-style: none;
+    color: antiquewhite;
+    font-size: 22px;
+    text-align: center;
+   justify-content: space-around;
+}
+.nav ul li{
+    width: fit-content;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+/* for the dropdown */
+.nav ul li ul {
+    display: none;
+    position: absolute;
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 0;
+    margin-left: -2pc;
+    background-color: transparent ;
+    height: 249px;
+    overflow-x: hidden;
+}
+.nav ul li ul li a{
+    color: #ffffff;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    display: block;
+    width: 229px;
+}
+.nav ul li ul li:hover{
+    background-color:  #696969;
+}
+.nav ul li:hover ul {
+    display: block; 
+}
+/* for the button */
+.headerbutton{
+    padding-top: 42px;
+    width: 152px;
+    text-align: center;
+}
+.headerbutton button{
+    background-color: #0000ff;
+    border: none;
+    height: 36px;
+    width: 89px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+/* end of the nav image and button setting */
+/* for the header text */
+.headertext{
+    margin-top: 18pc;
+    width: 690px;
+    margin-left:22px ;
+}
+.textdiv h1{
+    color: #ffffff;
+    font-size: 54px;
+    text-transform: capitalize;
+}
+/* end of the header */
+/* for the body */
+main{
+    width: auto;
+}
+.firstsection{
+    background-color: #0000ff;
+    margin-top: 19pc;
+    margin-bottom: 198px;
+}
+.video{
+   width: auto;
+   height: fit-content; 
+   background-color: #696969;
+}
+.video video{
+    width: 98.7vw; 
+    filter: brightness(40%);
+
+}
+.placement{
+    margin-top: -29pc;
+    bottom: 0;
+    color: #f1f1f1;
+    padding-left: 6pc;
+    position: relative;
+}
+.textfofsection p{
+    font-size: 52px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.textod p{
+    font-weight: 700;
+    color: #ffffff;
+    width: 634px;
+    font-size: 22px; 
+    cursor: pointer;
+}
+.buttonofpage button{
+    background-color: #0000ff;
+    border: none;
+    outline: none;
+    width: 112px;
+    height: 54px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    border-radius: 6px;
+}

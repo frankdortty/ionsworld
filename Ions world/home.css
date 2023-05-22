@@ -1,0 +1,437 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+/* for the entire body*/
+.allBody{
+
+    background-image: url(../img/backgroundimage2.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-clip: content-box;
+    animation: image 10s infinite ease-in-out;
+}
+@keyframes image {
+    0%{
+        background-image: url(../img/backgroundimage.jpeg);
+    }
+    25%{
+        background-image: url(../img/images\ \(1\).jpeg);
+    }
+}
+.secondheader{
+    display: none;
+}
+header{
+    /*background-image: url(../img/img6.jpg);*/
+    height:100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-image: url(../img/backgroundims.jpeg);
+    background-position: center;
+    background-blend-mode:multiply;
+    background-color: orangered;
+    animation: change 10s infinite ease-in-out;
+   /* background-blend-mode: multiply;*/
+  /*  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(boats.jpg) no-repeat;*/
+   /* filter: brightness(40%);*/
+    
+}
+/* setting the header in place*/
+.headerBegin{
+    padding-top: 19px;
+    display: flex;
+    opacity:0;
+    animation: drop .8s linear forwards .9s;
+    background-color: transparent;
+
+
+}
+@keyframes change {
+    0%{
+        background-color: #17094b;
+    }
+    30%{
+        background-color: #094b2f;
+    }
+    60%{
+        background-color: #144b09;
+    }
+    100%{
+        background-color: #ffffff ;
+    }
+    
+}
+/*setting the image div in place*/
+.imgaHeader{
+    width: 199px;
+    text-align: center;
+    height: 86px;
+}
+/*For image wight */
+.imgaHeader img{
+    width :67px;
+}
+/*For the navigation placement*/
+.nav{
+    width: 997px;
+    text-align: center;
+    height: 59px;
+}
+.uli{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+ul{
+    list-style: none;
+}
+/*for the navli width*/
+.lopp{
+    width: fit-content;
+    font-size: 21px;
+}
+a{
+    text-decoration: none;
+    color:#ffffff ;
+    background-color: transparent;
+}
+/* for the drop down */
+.oop ul{
+    display: none;
+    position: absolute;
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 0;
+    margin-left: -2pc;
+    background-color: transparent ;
+    height: 249px;
+    overflow-x: hidden;
+}
+.oop ul a{
+    color: #ffffff;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    display: block;
+    width: 229px;
+}
+.oop ul a:hover{
+    background-color: #696969;
+}
+.oop:hover ul{
+    display: block;
+}
+/*End of the navigational setting*/
+/* for the inverst button*/
+.headerbutton{
+    padding-top: 9px;
+    width: 129px;
+}
+.headerbutton button{
+    width: 87px;
+    border: none;
+    height: 36px;
+    outline: none;
+    border-radius: 9px;
+    background-color: #17094b;
+    color: #ffffff;
+    font-size: 19px;
+
+}
+.headerbutton button:hover{
+    background-color: #330808;
+}
+/* for the ions world text*/
+.header-text{
+    padding-left: 54px;
+}
+.headerh1{
+    color: #ffffffff;
+    background-color:transparent;
+    margin-top: 137px;
+    font-size: 64px;
+    width: 48pc;
+    margin-bottom: 0;
+    animation: fadeIn 5s;
+}
+.headerlinne{
+    background-color: #330808;
+    width: 34pc;
+    height: 3px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.headerp{
+    margin: 0;
+    font-size: 22px;
+    color: #e3e3e3;
+}
+/* For the read more button */
+.headertextbutton{
+    width: 27pc;
+    margin-top: 13px;
+}
+.headertextbutton button{
+    width: 134px;
+    height: 49px;
+    border-radius: 19px;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #330808;
+    color: #ffffff;
+    margin-left: 19pc;
+    
+}
+.headertextbutton button:hover{
+    background-color: #390ff3;
+    cursor: pointer;
+}
+/*for the dropdown animation*/
+#lo{
+    opacity:0;
+    animation: drop .13s linear forwards .17s;
+
+}
+#lp{
+    opacity:0;
+    animation: drop .16s linear forwards .19s;
+
+  }
+#lq{
+    opacity:0;
+  animation: drop .18s linear forwards .20s;
+
+}
+#lr{
+    opacity:0;
+    animation: drop .21s linear forwards .23s;
+
+}
+@keyframes drop {
+    0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
+    5% {opacity: .7;}
+    50% {transform: translateY(0px) scaleY(1); opacity: 1;}
+    65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
+    75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
+    100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+  }
+  
+  /* End of the dropdown animation*/
+  /* For the fadein anmation */ 
+   @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  } 
+/* beginig of the first section*/
+.firstsection-all{
+    display: flex;
+    padding-top: 12pc;
+    height: 70vh;
+   
+}
+/* for the right side of the first section*/
+.firstsectionall-text{
+    width: 32pc;
+    height: 334px;
+    padding-left: 69px;
+    background-color: blue;
+}
+/* for the right side of the first section button*/
+.firstsectionalltext-button button{
+    background-color: #a52a2a;
+    border: none;
+    height: 54px;
+    width: 8pc;
+    border-radius: 12px;
+    box-shadow: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 19px;
+    cursor: pointer;
+}
+.firstsectionalltext-button button:hover{
+    background-color: #232397;
+
+}
+/* for the right side of the first section text*/
+.firstsectionalltext-text p{
+    margin-top: 43px;
+    line-height: 28px;
+    color: #ffffff;
+    font-size: 19px;
+    margin-top: 22px;
+    padding: 0;
+    filter: brightness(12);
+    background-color: transparent;
+}
+.firstsectionalltext-readmore a{
+    color: #ffffff;
+    font-size: 19px;
+    margin-top: 22px;
+    padding: 0;
+}
+/* for the left side of the first section*/
+.firstsectionall-image{
+    width: 47pc;
+    text-align: center;
+    margin-top: -2pc;
+   
+}
+/* for the left side of the first section image*/
+.firstsectionall-image img{
+    width: 29pc;
+    height: 24pc;
+    border-radius: 12px;
+}
+/* for section two*/
+.sectiontwo{
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-image: url(../img/images.jpeg);
+    background-position: center;
+    background-blend-mode:multiply;
+    background-color: orangered;    
+    padding-left: 5pc;
+    padding-top: 41px;
+}
+.sectiontwoall{
+    background-color: #eeeeee;
+    width: 47pc;
+    height: 23pc;
+    border-radius: 12px;
+    padding-left: 21px;
+    padding-top: 22px;
+}
+.basicneeds h1{
+    font-size: 34px;
+    margin: 0;
+}
+.sectionallpo p{
+    font-size: 21px;
+}
+.sectionallpo a{
+    color: #ff0000;
+    text-transform: capitalize;
+}
+/*for the secound section*/
+.secoundsectionall{
+    justify-content: center;
+    text-align: center;
+    height: 130vh;
+    margin-top: 121PX;
+}
+/*for the headin*/
+.secoundsectionall-wat{
+    margin: 0;
+    padding: 0;
+}
+.secoundsectionall-wat p{
+    font-size: 4pc;
+    text-transform: capitalize;
+    color: #232397;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+/*for the heading discription*/
+.secoundsectionall-dis p{
+    text-transform: capitalize;
+    color: #080000;
+    margin: 0;
+    width: 35pc;
+}
+/* for the images of the services */
+.secoundsectionall-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 3pc;
+    height: 287px;
+    
+}
+.secoundsectionall-imgdemaction{
+    margin-left: 23px;
+    border-radius: 3%;
+}
+.secoundsectionall-imgdemaction img{
+    border-radius: 3%;
+    width: 337px;
+    height: 230px;
+}
+.secoundsectionall-imgdemaction a{
+    text-transform: capitalize;
+}
+.secoundsectionall-imgdemaction p a{
+    color: #232397;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+.secoundsectionall-imgdemaction:hover{
+    margin-left: 23px;
+    border-radius: 3%;
+    background-color: transparent;
+    margin-top: 5px;
+    box-shadow: 0px 5px 0 #e3e3e3;
+}
+/* for the third section */
+.thirdsectionall{
+    margin-top: 123px;
+    text-align: center;
+    height: 90vh;
+    margin-bottom: 70px;
+    background-color: #ffffff;
+}
+.thirdsectionall-recent{
+    height: fit-content;
+}
+.qwer{
+    text-transform: capitalize;
+    font-size: 54px;
+    font-weight: 600;
+    margin: 0;    
+}
+.rewq{
+    text-transform: capitalize;
+    font-size: 19px;
+}
+.thirdsectionall-news{
+    display: flex;
+}
+.topic{
+    font-size: 22px;
+    font-weight: 600;
+}
+.topic a{
+    color: #080000;
+}
+aside{
+    display: none;
+    font-size: 34px;
+}
+@media screen  and (max-width: 758px) {
+    body{
+        background: none;
+        
+    }
+   header{
+        display: none;
+    }
+    main{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    aside{
+        display: inline;
+    }
+}

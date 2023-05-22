@@ -1,0 +1,290 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background-image: url(../img/download.jfif);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#ffffff ;
+    background-color: transparent;
+}
+header{
+    /*background-image: url(../img/img6.jpg);*/
+    height:100vh;
+    background-color:rgb(80, 23, 194) ;
+    background-image:url(../img/background\ image\ save.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+/* setting the header in place*/
+.headerBegin{
+    padding-top: 19px;
+    display: flex;
+    opacity:0;
+    animation: drop .8s linear forwards .9s;
+    background-color: transparent;
+}
+@keyframes change {
+    0%{
+        background-image:url(../)
+    }
+    30%{
+        background-image: url(../img/download\ \(2\).jpeg);
+    }
+    60%{
+        background-image: url(../img/download\ \(3\).jpeg);
+
+    }
+    100%{
+        background-image: url(../img/download\ \(4\).jpeg);
+    }
+    
+}
+/*setting the image div in place*/
+.imgaHeader{
+    width: 199px;
+    text-align: center;
+    height: 86px;
+}
+/*For image wight */
+.imgaHeader img{
+    width :67px;
+}
+/*For the navigation placement*/
+.nav{
+    width: 997px;
+    text-align: center;
+    height: 59px;
+}
+.uli{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+ul{
+    list-style: none;
+}
+/*for the navli width*/
+.lopp{
+    width: fit-content;
+    font-size: 21px;
+}
+a{
+    text-decoration: none;
+    color:#ffffff ;
+    background-color: transparent;
+}
+/* for the drop down */
+.oop ul{
+    display: none;
+    position: absolute;
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 0;
+    margin-left: -2pc;
+    background-color: transparent ;
+    height: 249px;
+    overflow-x: hidden;
+}
+.oop ul a{
+    color: #ffffff;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    display: block;
+    width: 229px;
+}
+.oop ul a:hover{
+    background-color: #696969;
+}
+.oop:hover ul{
+    display: block;
+}
+/*End of the navigational setting*/
+/* for the inverst button*/
+.headerbutton{
+    padding-top: 9px;
+    width: 129px;
+}
+.headerbutton button{
+    width: 87px;
+    border: none;
+    height: 36px;
+    outline: none;
+    border-radius: 9px;
+    background-color: #17094b;
+    color: #ffffff;
+    font-size: 19px;
+
+}
+.headerbutton button:hover{
+    background-color: #330808;
+}
+/* for the ions world text*/
+
+/*for the dropdown animation*/
+#lo{
+    opacity:0;
+    animation: drop .13s linear forwards .17s;
+
+}
+#lp{
+    opacity:0;
+    animation: drop .16s linear forwards .19s;
+
+  }
+#lq{
+    opacity:0;
+  animation: drop .8s linear forwards .20s;
+
+}
+#lr{
+    opacity:0;
+    animation: drop .21s linear forwards .23s;
+
+}
+@keyframes drop {
+    0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
+    5% {opacity: .7;}
+    50% {transform: translateY(0px) scaleY(1); opacity: 1;}
+    65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
+    75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
+    100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+  }
+  
+  /* End of the dropdown animation*/
+  /* For the fadein anmation */
+   @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  } 
+ 
+  /* FOR THE GET IN CONTACT IMAGE*/
+.header-text{
+    text-align: center;
+    color: transparent;
+    padding-left: 54px;
+    background-color: transparent;
+}
+.headerh1{
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 74px;
+    margin-top: 197px;
+    opacity: 0.7;
+    animation: fadeIn 5s;
+}
+ /* For the fadein anmation */
+ @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 0.7; }
+  } 
+
+.headerlinne{
+    background-color: #330808;
+    width: 64pc;
+    height: 3px;
+    margin-left: 143px;
+}
+/* for the history section*/
+.firstarticlefirstsectionall{
+    
+    height: 70vh;
+    padding-top: 33px;
+    margin-top:166px;
+    margin-bottom: 166px;
+ 
+}
+.firstarticlefirstsectiontext{
+    
+    height: 23pc;
+    width: 933px;
+    margin-left:15% ;
+}
+.firstarticlefirstsectionhis h2{
+    font-size: 52px;
+    margin: 0%;
+    text-align: center;
+    color: #ffffff;
+}
+.firstarticlefirstsectiontexthistext p{
+    font-size: 19px;
+    color: #ffffff;
+}
+/* for the mission and vission */
+.secoundarticlesceoundsectiondall{
+    height: 60vh;
+    background-color: brown;
+    padding-top: 22px;
+    margin-bottom: 166px;
+    color: #ffffff;
+}
+.sceoundarticlesceoundsectionnmi{
+    height: 120px;
+    width:38pc;
+    font-size: 19px;
+    margin-left: 22px;
+}
+.sceoundarticlesceoundsectionvi{
+   
+    height: 140px;
+    width: 41pc;
+    font-size: 19px;
+    float: right;
+    margin-right:22px;
+    margin-top: 0pc;
+}
+/* for the meet the ceo*/
+.thirdarticlefirstsectionall{
+    background-color: #330808;
+    height: 100vh;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: #ffffff;
+    margin-bottom: 166px;
+ 
+}
+.thirdarticlefirstsectiondivoo{
+    width: 28pc;
+    margin-left: 123px;
+}
+.thirarticlefirstsectiondivo{
+    width: 38pc;
+    padding-top: 134px;
+    font-size: 19px;
+}
+.divooimg img{
+    border-radius: 359pc;
+    margin-top: 94px;
+}
+.thirarticlefirstsectiondivo h2{
+    text-align: center;
+    font-size:32px;
+    color: #ffffff;
+}
+.teammeet{
+    text-align: center;
+    font-size: 33px;
+    
+}
+.teamimgarrang{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 55px;
+    color: #ffffff;
+}
+.teamimgarrangimg img{
+    width: 222px;
+    height: 282px;
+    border-radius: 22px;
+}

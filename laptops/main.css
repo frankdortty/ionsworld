@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: auto;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+/* for the header */
+.headerheader{
+    display: flex;
+    width: auto;
+}
+/* for the header image */
+.headerimg{
+    width: 169px;
+    padding-left: 22px;
+}
+.headerimg img{
+    width: 112px;
+    margin-top: 12px;
+}
+/* for the navigation */
+.nav{
+    width: 894px;
+    padding-top: 49px;
+}
+.nav ul{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    color: #696969;
+    font-size: 19px;
+    text-align: center;
+   justify-content: space-around;
+   
+}
+.nav ul li{
+    width: fit-content;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* for the dropdown */
+/* for the dropdown */
+.nav ul li ul {
+    display: none;
+    position: absolute;
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 0;
+    margin-left: -2pc;
+    background-color: transparent ;
+    height: 249px;
+    overflow-x: hidden;
+}
+.nav ul li ul li a{
+  
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    display: block;
+    width: 229px;
+}
+.nav ul li ul li:hover{
+    background-color:  #696969;
+}
+.nav ul li:hover ul {
+    display: block; 
+}
+/* end of the header */
+/* beging of the main body */
+.main{
+    width: auto;
+    padding-left: 54px;
+    padding-top: 122px;
+}
+/* for the first section */
+.firstsection{
+    display: flex;
+    width: auto;
+}
+/* for the search bar */
+.wap{
+    width: 376px;
+    padding-top: 7px;
+    display: flex;
+}
+.firstsectionserach{
+    background-color: #e3e3e3;
+    height: 49px;
+    width: 350px;
+    border-radius: 11px;
+}
+.firstsectionserach input{
+    height: 44px;
+    outline: none;
+    border: none;
+    width: 270px;
+    margin-left: 9px;
+    background-color: #e3e3e3;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+/* for the searh buton */
+.firstsectionsearchbutton{
+    width: auto;
+}
+.firstsectionsearchbutton button{
+    border-radius: 11px;
+    border: none;
+    height: 49px;
+    background-color: #370a80;
+    margin-left: -59px;
+    width: 59px;
+    cursor: pointer;
+    color: #fff0ff;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* for the laptop text */
+.firstsectionshop{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    padding-left: 22px;
+}
+.firstsectionshop h1{
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 5px;
+}
+/* end of the first section */
+/* beginging of the secound section */
+.secoundsection{
+    display: flex;
+    margin-top: 98px;
+    padding-top: 54px;
+}
+/* for the categories */
+.sidebar{
+    width: 143px;
+    margin-left: 19pc;
+}
+.sidebardropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    background-color: #370a80;
+    color: #fff;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+/* to hide the content */
+.dropdown-content{
+    display: none; 
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #0000;
+    z-index: 1;
+}
+/* for the dropdown content links */
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block  ;
+    font-size: 19px;
+    font-weight: 600;
+}
+.dropdown-content a:hover{
+   background-color: #ddd;
+}
+/* added in javascript */
+.show{
+    display: block;
+}
+/* end of the categories */
+/* begining of the main section */
+.secoundsectionmain{
+   width: 1251px; 
+   height: 250vh;
+
+}
+.fralablu{
+    display: flex;
+    flex: auto;
+    margin-top: 18px;
+    overflow: hidden;
+    justify-content: space-around;
+}
+.secoundsectionarrangment{
+    background-color: #6b1818;
+    margin-top: 32px;
+    width: 257px;
+    text-align: center;
+    padding-top: 11px;
+    border-radius: 15px;
+}
+.secounsectionimages img{
+    height: 212px;
+    width: 222px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.seoundsectiontext{
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+/* for the repair form */
+.thirsecton{
+   width: auto;
+   margin-bottom: 29px;
+}
+.details summary{
+    font-size: 27px;
+    font-weight: 600;
+}
+.divform{
+    margin-top: 22px;
+}
+.forminput{
+    background-color: #c0c0c0;
+    margin-top: 17px;
+    height: 54px;
+    width: 296px;
+}
+.forminput input{
+    height: 47px;
+    width: 285px;
+    margin-left: 5px;
+    outline: none;
+    border: none;
+    margin-top: 2px;
+    font-size: 19px;
+    background-color: #c0c0c0
+}
+.formtext{
+    margin-top: 17px;
+    width: 296px;
+    background-color: #c0c0c0;
+    height: fit-content;
+}
+.formtext textarea{
+    width: 285px;
+    margin-left: 5px;
+    outline: none;
+    border: none;
+    font-size: 19px;
+    background-color: #c0c0c0;
+}
+.divform button{
+    margin-top: 12px;
+    height: 34px;
+    width: 98px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #370a80;
+    color: #ffffff  ;
+}

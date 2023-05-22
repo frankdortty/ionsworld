@@ -1,0 +1,280 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+/* for the header */
+header{
+   
+    background-image: url(../img/contact22.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+}
+/* setting the header in place*/
+.headerBegin{
+    padding-top: 19px;
+    display: flex;
+    opacity:0;
+    animation: drop .8s linear forwards .9s;
+    background-color: transparent;
+}
+/*setting the image div in place*/
+.imgaHeader{
+    width: 199px;
+    text-align: center;
+    height: 86px;
+}
+/*For image wight */
+.imgaHeader img{
+    width :67px;
+}
+/*For the navigation placement*/
+.nav{
+    width: 997px;
+    text-align: center;
+    height: 59px;
+}
+.uli{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+ul{
+    list-style: none;
+}
+/*for the navli width*/
+.lopp{
+    width: fit-content;
+    font-size: 21px;
+}
+a{
+    text-decoration: none;
+    color:#ffffff ;
+    background-color: transparent;
+}
+/* for the drop down */
+.oop ul{
+    display: none;
+    position: absolute;
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 0;
+    margin-left: -2pc;
+    background-color: transparent ;
+    height: 249px;
+    overflow-x: hidden;
+ 
+}
+.oop ul a{
+    color: #ffffff;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    display: block;
+    width: 229px;
+}
+.oop ul a:hover{
+    background-color: #696969;
+}
+.oop:hover ul{
+    display: block;
+}
+/*End of the navigational setting*/
+/* for the inverst button*/
+.headerbutton{
+    padding-top: 9px;
+    width: 129px;
+}
+.headerbutton button{
+    width: 87px;
+    border: none;
+    height: 36px;
+    outline: none;
+    border-radius: 9px;
+    background-color: #17094b;
+    color: #ffffff;
+    font-size: 19px;
+
+}
+.headerbutton button:hover{
+    background-color: #330808;
+}
+/*for the dropdown animation*/
+#lo{
+    opacity:0;
+    animation: drop .13s linear forwards .17s;
+
+}
+#lp{
+    opacity:0;
+    animation: drop .16s linear forwards .19s;
+
+  }
+#lq{
+    opacity:0;
+  animation: drop .18s linear forwards .20s;
+
+}
+#lr{
+    opacity:0;
+    animation: drop .21s linear forwards .23s;
+
+}
+@keyframes drop {
+    0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
+    5% {opacity: .7;}
+    50% {transform: translateY(0px) scaleY(1); opacity: 1;}
+    65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
+    75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
+    100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+  }
+  
+  /* End of the dropdown animation*/
+ 
+/* FOR THE GET IN CONTACT IMAGE*/
+.header-text{
+    text-align: center;
+    color: transparent;
+    padding-left: 54px;
+    background-color: transparent;
+}
+.headerh1{
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 74px;
+    margin-top: 197px;
+    opacity: 0.7;
+    animation: fadeIn 5s;
+}
+ /* For the fadein anmation */
+ @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 0.7; }
+  } 
+
+.headerlinne{
+    background-color: #330808;
+    width: 64pc;
+    height: 3px;
+    margin-left: 143px;
+}
+/*for the form and map*/
+.firstarticlesectiondiv{
+    display: flex;
+    background-color: #17094b;
+    padding-left: 64px;
+    padding-top: 12pc;
+}
+.firstarticlesectiondiv-one{
+    background-color: burlywood;
+    width: 30pc;
+    height: 100vh;
+    text-align: center;
+   
+}
+.formdiv h2{
+    background-color: #000000;
+    color: #ffff;
+    font-size: 56px;
+    padding: 0;
+    margin: 0;
+}
+.formdivinput{
+    background-color: #ffffff;
+    margin-top: 7px;
+    height: 59px; 
+    width: 347px;  
+    margin-left: 50px;
+    padding-top: 10px;
+    margin-right: 50px;
+}
+.formdivinput input{
+    width: 321px;
+    height:47px ;
+    outline: none;
+    border:none;
+    font-size: 17px;
+}
+.formdivtextarea{
+    margin-top: 7px;
+    width: 347px;
+    margin-left: 50px;
+    margin-top:10px;
+    background-color: #ffffff;
+}
+.formdivtextarea textarea{
+    width: 321px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.formdivsubmit{
+    margin-top: 7px;
+    margin-left: 194px
+}
+.formdivsubmit input{
+    width: 115px;
+    height: 34px;
+    outline: none;
+    border: none;
+    border-radius:9px;
+    background-color:#ff0000;
+    color: #000fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+.formdivsubmit input:hover{
+    background-color: #000fff;
+    color: #ffffff;
+}
+/* for the maps*/
+.firstarticlesectiondiv-two{
+    background-color: #c9c9c9;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 9px;
+}
+
+.secoundarticlediv{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+}
+.der{
+    width: 312px;
+    margin-top: 62px;
+}
+.secoundarticlesecoundsectionall{
+    width: 422px;
+    display: flex;
+    color: #000fff;
+    margin-top: 62px;
+}
+.adress1{
+    font-size: 19px;
+
+}
+.address{
+    font-size: 19px;
+    margin-left: 12px;
+}
+.email{
+    display: flex;
+    font-size:19px ;
+    color: #000fff;
+    margin-top: 62px;
+}
+.rr{
+    margin-right: 22px;
+}
+.email a{
+    font-size:19px;
+    text-transform: capitalize;
+    color: #000fff;
+    margin-top: 62px;
+}
